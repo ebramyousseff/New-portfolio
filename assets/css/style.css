@@ -229,7 +229,9 @@ body.dark-theme {
   left: 0;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
-  transition: box-shadow 0.4s, background-color 0.4s;
+  transition:
+    box-shadow 0.4s,
+    background-color 0.4s;
 }
 .nav {
   position: relative;
@@ -533,7 +535,9 @@ body.dark-theme {
   border: 3px solid var(--black-color);
   color: var(--black-color);
   padding: 0.5rem;
-  transition: border 0.4s, color 0.4s;
+  transition:
+    border 0.4s,
+    color 0.4s;
 }
 
 .button__ghost i {
@@ -657,7 +661,9 @@ body.dark-theme {
   padding: 6rem 1rem 3rem;
   z-index: 5;
   position: relative;
-  transition: background-color 0.4s, border 4s;
+  transition:
+    background-color 0.4s,
+    border 4s;
 }
 
 .services__border {
@@ -883,7 +889,9 @@ body.dark-theme {
   color: var(--white-color);
   padding: 0.5rem 1rem;
   font-weight: var(--font-medium);
-  transition: border 0.4s, background-color 0.4s;
+  transition:
+    border 0.4s,
+    background-color 0.4s;
 }
 
 .contact__input::placeholder {
@@ -896,7 +904,9 @@ body.dark-theme {
 }
 
 .contact__input:-webkit-autofill {
-  transition: background-color 6000s, color 6000s;
+  transition:
+    background-color 6000s,
+    color 6000s;
 }
 
 .contact__label {
@@ -909,7 +919,10 @@ body.dark-theme {
   background-color: var(--black-color);
   padding: 8px;
   pointer-events: none;
-  transition: top 0.4s, opacity 0.4s, background-color 0.4s;
+  transition:
+    top 0.4s,
+    opacity 0.4s,
+    background-color 0.4s;
   opacity: 0;
 }
 
@@ -1055,7 +1068,10 @@ body.dark-theme {
   font-size: 1.25rem;
   color: var(--white-color);
   z-index: var(--z-tooltip);
-  transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
+  transition:
+    bottom 0.4s,
+    transform 0.4s,
+    background-color 0.4s;
 }
 
 .scrollup:hover {
@@ -1354,8 +1370,8 @@ body.dark-theme {
   .button__ghost i {
     font-size: 1.5rem;
   }
-  .services__container{
-    grid-template-columns: repeat(1, 283px);
+  .services__container {
+    grid-template-columns: repeat(2, 283px);
     column-gap: 5rem;
     padding-block: 3rem 5rem;
   }
@@ -1370,27 +1386,26 @@ body.dark-theme {
     width: 32px;
     height: 32px;
   }
-  .section__title{
+  .section__title {
     margin-bottom: 1.5rem;
-
   }
-  .services__card:hover .services__border{
+  .services__card:hover .services__border {
     transform: translate(1.25rem, 1.25rem);
   }
-  .projects__container{
+  .projects__container {
     grid-template-columns: repeat(3, 352px);
     padding-block: 3rem 1rem;
   }
-  .projects__card{
+  .projects__card {
     padding: 1.25rem 1.25rem 2.5rem;
   }
-  .projects__image{
+  .projects__image {
     margin-bottom: 1rem;
   }
-  .projects__content{
+  .projects__content {
     margin-bottom: 2rem;
   }
-  .projects__button{
+  .projects__button {
     right: 1.25rem;
   }
   .contact__container {
